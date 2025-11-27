@@ -1,0 +1,6 @@
+let myDates=new Date()
+console.log(myDates.toLocaleDateString())
+console.log(myDates.getDate())
+console.log(myDates.getDay())
+console.log(myDates.getFullYear())
+console.log(myDates.getUTCDate())
