@@ -25,5 +25,5 @@ const bollyMovie=['Shiddat','Pathan','Jawan']
 const newBollyMovie=['K.G.F','Dangal']
 // bollyMovie.push(newBollyMovie)
 // console.log(bollyMovie)
-bollyMovie.push(...newBollyMovie)
-console.log(bollyMovie)
+const allBollyMovies=[...bollyMovie,...newBollyMovie]
+console.log(allBollyMovies)
