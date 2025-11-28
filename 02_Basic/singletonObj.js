@@ -20,3 +20,13 @@ const obj3= Object.assign([],obj1,obj2)
 const obj4=Object.assign({},obj1,obj2)
 console.log(obj3)
 console.log(obj4)
+
+const course ={
+    courseName:'JS in Hindi',
+    price: 999,
+    courseInstructor:'Hitesh Sir'
+}
+
+const {courseInstructor,courseName,price}= course
+console.log(courseInstructor)
+console.log(price);
